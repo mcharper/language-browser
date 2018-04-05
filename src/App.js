@@ -11,29 +11,29 @@ class App extends Component {
           
           var graph = new Graph()
 
-          graph.addEdge('Paradigm', 'Imperative', { directed : true,
+          graph.addEdge('Imperative', 'Paradigm', { directed : true,
                                       style: {
                                         stroke: '#ddd',
                                         fill: '#ddd',
-                                        label: 'Has similar syntax to'
+                                        label: 'Is one'
                                       }})
-          graph.addEdge('Paradigm', 'Procedural', { directed : true,
+          graph.addEdge('Procedural', 'Paradigm', { directed : true,
                                       style: {
                                         stroke: '#ddd',
                                         fill: '#ddd',
-                                        label: 'Has similar syntax to'
+                                        label: 'Is one'
                                       }})
-          graph.addEdge('Paradigm', 'Object Oriented', { directed : true,
+          graph.addEdge('Object Oriented', 'Paradigm', { directed : true,
                                       style: {
                                         stroke: '#ddd',
                                         fill: '#ddd',
-                                        label: 'Has similar syntax to'
+                                        label: 'Is one'
                                       }})
-          graph.addEdge('Paradigm', 'Functional', { directed : true,
+          graph.addEdge('Functional', 'Paradigm', { directed : true,
                                       style: {
                                         stroke: '#ddd',
                                         fill: '#ddd',
-                                        label: 'Has similar syntax to'
+                                        label: 'Is one'
                                       }})
 
           graph.addEdge('C', 'Procedural', { directed : true,
