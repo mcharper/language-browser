@@ -7,7 +7,6 @@ class App extends Component {
   componentDidMount() {
           var Graph = Dracula.Graph
           var Renderer = Dracula.Renderer.Raphael
-          var Layout = Dracula.Layout.Spring
           
           var graph = new Graph()
 
