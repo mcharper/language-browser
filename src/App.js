@@ -91,7 +91,6 @@ class App extends Component {
                                         label: 'Supports paradigm'
                                       }})
                                       
-          var layout = new Layout(graph)
           var renderer = new Renderer('#paper', graph, 800, 600)
           renderer.draw()
   }
